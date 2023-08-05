@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <form action="" method="post" class="mb-3 shadow">
+                {% csrf_token %}
+                <fieldset>
+                    <legend><h3>Tasks</h3></legend>
+                        <div class="mb-3">
+                          <label class="form-label">Name : </label>
+                          <input type="text" class="form-control"  name="task" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label">Priority : </label>
+                          <input type="text" class="form-control" name="priority" placeholder="Priority">
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label">Date : </label>
+                          <input type="date" class="form-control" name="date">
+                        </div>
+                        <div class="mb-3">
+                            <input class="btn btn-success" type="submit" value="Submit">
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
