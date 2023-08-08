@@ -15,7 +15,7 @@ A simple web application developed using HTML, CSS, Bootstrap, and Django that a
 
 ## Usage
 
-1. Access the web app through your browser at ...
+1. Access the web app through your browser at : 'http://ravenashborn.pythonanywhere.com/'
 2. Add tasks by entering the task name, priority, and date in the provided fields.
 3. Mark tasks as completed to remove them from the list.
 
